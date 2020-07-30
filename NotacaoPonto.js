@@ -1,7 +1,8 @@
-console.log(Math.ceil(6.1))//Math = objet, acessa usando a funcao Ponto para acessar o obj
+console.log(Math.ceil(6.1))//(arredondamento)Math = objet, acessa usando a funcao Ponto para acessar o obj
 
+//voce consegue acessar os membros de um obj apartir da notação ponto
 const obj1 = {}
-obj1.nome = 'PrimeiroAqui' //notação Ponto
+obj1.nome = 'PrimeiroAqui' //cria/acessa dinamicamente um obj dentro de um atributo
 //obj1['nome'] = 'Bola2'  //mais flexivel,nao muito recomendado
 console.log(obj1.nome)
 
