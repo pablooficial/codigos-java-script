@@ -10,5 +10,5 @@ console.log('08', 5 >= 10) //maior igual
 
 const d1 = new Date(0)
 const d2 = new Date(0)
-console.log('09', d1 === d2)
-console.log('10',d1.getTime() === d2.getTime())
+console.log('09', d1 === d2) // === extritamente igual
+console.log('10',d1.getTime() === d2.getTime()) // == igual
